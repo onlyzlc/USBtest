@@ -1,0 +1,15 @@
+{
+	"name": "USBtest",
+	"description": "串口通讯测试",
+	"version": "0.1",
+	"minimum_chrome_version": "23",
+	"app": {
+		"background": {
+			"scripts": ["background.js"],
+			"transient": true
+			}
+		},
+		"icons": { "16": "usb16.png", "128": "usb128.png" },
+		"permissions": ["serial"]
+}
+
